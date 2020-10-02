@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+  background: #EEEEEE;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+  margin: 5px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 35px;
+  height: 70px;
+  width: 70px;
+  color: black;
+  border: none;
+  font-family: Nunito;
+  box-shadow: -4px -4px 4px 0 white, 4px 4px 4px 0 rgba(0, 0, 0, 0.03);
+}
+.grid-item:hover {
+  background-color: white;
+  color: black;
+}
+
+.long {
+  text-align: left;
+  width: 140px;
+  padding: 20px;
+}
+
+.bottom-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+#numbertochange {
+  color: black;
+  text-align-last: right;
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#mathsfunction {
+  color: black;
+  text-align-last: right;
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 30px;
+  padding-top: 0px;
+}
+
+p {
+  font-family: Nunito;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Nunito;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align-last: right;
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 30px;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: -4px -4px 4px 0 rgba(0, 0, 0, 0.03), 4px 4px 4px 0 white;
+  padding: 10px;
+}
+
+.calc {
+  position: relative;
+  border-radius: 10px;
+  height: 695px;
+  width: 350px;
+  padding: 1em;
+  box-shadow: -8px -8px 8px 0 white, 8px 8px 8px 0 rgba(0, 0, 0, 0.03);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.grey {
+  color: black;
+}
+
+#btns {
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: -8px -8px 8px 0 white, 8px 8px 8px 0 rgba(0, 0, 0, 0.03);
+}
