@@ -1,0 +1,86 @@
+body{
+    background-color: #3c4956;
+    margin: 0px;
+    font-family: "Poppins";
+    display: flex;
+    height: 100vh;
+}
+
+h2{
+    color:#ff0057 ;
+    font-size: 30px;
+    text-align: right;
+    width: 90%;
+}
+
+.calc{
+    margin: auto auto auto auto;
+    margin-top: auto;
+    background-color:white;
+    height: 640px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    
+    
+}
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+    background: none;
+    border: none;
+    height:90px;
+    width:90px;
+    padding: 0px;
+    background-color:  #ff0057 ;
+    color: white;
+
+}
+
+.grid-item-func {
+    font-size: 30px;
+    text-align: center;
+    background: none;
+    border: none;
+    height:90px;
+    width:90px;
+    padding: 0px;
+    color: white;
+    
+
+}
+.long {
+    text-align: center;
+    width:180px;
+    
+}
+
+.bottom-row{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    
+}
+
+h2{
+    margin: 0px;
+}
+
+#btns{
+ background-color: #e8004f ;
+ width: 100%;
+ 
+}
+
+
+
+
+
+
